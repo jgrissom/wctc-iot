@@ -1,8 +1,11 @@
+import requests
 from gpiozero import Button
 from time import sleep
 
 def log():
-	print("log")
+	# request 1 event
+	r = requests.get('https://modas.azurewebsites.net/api/event/1')
+	print(r.status_code)
 
 # init button
 button = Button(8)

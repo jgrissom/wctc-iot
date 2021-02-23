@@ -1,6 +1,6 @@
 # wctc-iot
 
-##Pi Setup
+#Pi Setup
 1. Connect pi to usb / serial cable and connect usb end to pc
 2. Power up pi
 3. Open Putty - select serial connection, enter COM4 (Use device mgr to ensure correct com port) as serial line, enter 
